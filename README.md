@@ -1,4 +1,4 @@
-# NeetCode 150 Solutions
+# NeetCode150 Solutions
 Solutions to the [NeetCode 150](https://neetcode.io/roadmap) problems implemented in both Python and Rust.
 
 ## NeetCode 150 Roadmap
