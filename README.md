@@ -1,5 +1,5 @@
 # NeetCode 150 Solutions
-Solutions to the [NeetCode 150](https://neetcode.io/roadmap){:target="_blank" rel="noopener noreferrer"} problems implemented in both Python and Rust.
+Solutions to the [NeetCode 150](https://neetcode.io/roadmap) problems implemented in both Python and Rust.
 
 ## NeetCode 150 Roadmap
 - [Arrays & Hashing](./arrays_and_hashing/)
