@@ -4,39 +4,47 @@ Solutions to the [NeetCode 150](https://neetcode.io/roadmap) problems implemente
 ## Problem Categories
 ```mermaid
 graph TD
+  A[Arrays & Hashing] --> B[Two Pointers]
+  A --> C[Stack]
+  B --> D[Binary Search]
+  B --> E[Sliding Window]
+  B --> F[Linked List]
+  D --> G[Combined: BS, SW, LL]
+  E --> G
+  F --> G
+  G --> H[Trees]
+  H --> I[Tries]
+  H --> J[Heap / Priority Queue]
+  H --> K[Backtracking]
+  J --> L[Intervals]
+  J --> M[Greedy]
+  J --> N[Advanced Graphs]
+  K --> O[Graphs]
+  K --> P[1-D Dynamic Programming]
+  P --> Q[2-D Dynamic Programming]
+  P --> R[Bit Manipulation]
+  O --> S[Math & Geometry]
+```
 
-subgraph Arrays_&_Hashing
-  B1[Two Pointers]
-  B2[Stack]
-end
-
-B1 --> C1[Binary Search]
-B1 --> C2[Sliding Window]
-B1 --> C3[Linked List]
-
-C1 --> D[Combined: Binary Search, Sliding Window, Linked List]
-C2 --> D
-C3 --> D
-
-subgraph Trees
-  E1[Tries]
-  E2[Heap / Priority Queue]
-  E3[Backtracking]
-end
-
-E2 --> F1[Intervals]
-E2 --> F2[Greedy]
-E2 --> F3[Advanced Graphs]
-
-E3 --> G1[Graphs]
-E3 --> G2[1-D Dynamic Programming]
-
-G2 --> H1[2-D Dynamic Programming]
-G2 --> H2[Bit Manipulation]
-
-G1 --> F3
-G1 --> H1
-G1 --> I1[Math & Geometry]
-
-H2 --> I1
+<!-- Link folders to graph nodes -->
+%% Folder links
+click A href "./arrays_hashing/"
+click B href "./two_pointers/"
+click C href "./stack/"
+click D href "./binary_search/"
+click E href "./sliding_window/"
+click F href "./linked_list/"
+click G href "./combined/"
+click H href "./trees/"
+click I href "./tries/"
+click J href "./heap_priority_queue/"
+click K href "./backtracking/"
+click L href "./intervals/"
+click M href "./greedy/"
+click N href "./advanced_graphs/"
+click O href "./graphs/"
+click P href "./dp_1d/"
+click Q href "./dp_2d/"
+click R href "./bit_manipulation/"
+click S href "./math_geometry/"
 ```
