@@ -20,3 +20,7 @@ Solutions to the [NeetCode 150](https://neetcode.io/roadmap) problems implemente
     - [1D Dynamic Programming](./1d_dynamic_programming/)
       - [2D Dynamic Programming](./2d_dynamic_programming/)
       - [Bit Manipulation](./bit_manipulation/)
+
+## Running Solutions
+- Python solutions are in each problem's directory (`solution.py`)
+- Rust solutions are in each problem's directory (`src/lib.rs`). Run `cargo test -p [problem_name]` to run the solution.
