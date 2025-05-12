@@ -1,0 +1,11 @@
+# Ignore the target directory
+/target/
+
+# Ignore Cargo.lock at the root level
+/Cargo.lock
+
+# Ignore target directories in subdirectories
+**/target/
+
+# Ignore Cargo.lock in subdirectories
+**/Cargo.lock
