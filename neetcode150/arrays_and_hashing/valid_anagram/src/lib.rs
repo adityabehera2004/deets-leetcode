@@ -1,4 +1,4 @@
-pub fn is_anagram(s: String, t: String) -> bool {
+pub fn valid_anagram(s: String, t: String) -> bool {
     let mut s_chars: Vec<char> = s.chars().collect();
     let mut t_chars: Vec<char> = t.chars().collect();
     
@@ -13,8 +13,8 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_is_anagram() {
-        assert_eq!(is_anagram("racecar".to_string(), "carrace".to_string()), true, "Example 1 failed");
-        assert_eq!(is_anagram("jar".to_string(), "jam".to_string()), false, "Example 2 failed");
+    fn test_valid_anagram() {
+        assert_eq!(valid_anagram("racecar".to_string(), "carrace".to_string()), true, "Example 1 failed");
+        assert_eq!(valid_anagram("jar".to_string(), "jam".to_string()), false, "Example 2 failed");
     }
 }
