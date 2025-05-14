@@ -1,5 +1,5 @@
 # Arrays & Hashing
-1. [Contains Duplicate](contains_duplicate/) - [Problem Description](https://neetcode.io/problems/duplicate-integer)
+1. [Contains Duplicate](contains_duplicate/) ([Problem Description](https://neetcode.io/problems/duplicate-integer))
 2. [Valid Anagram](valid_anagram/) - [Problem Description](https://neetcode.io/problems/is-anagram)
 3. [Two Sum](two_sum/) - [Problem Description](https://neetcode.io/problems/two-integer-sum)
 4. [Group Anagrams](group_anagrams/) - [Problem Description](https://neetcode.io/problems/anagram-groups)
