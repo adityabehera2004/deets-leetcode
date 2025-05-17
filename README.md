@@ -1,5 +1,5 @@
 # Deets' NeetCode 150 Solutions
-Solutions to the [NeetCode 150](https://neetcode.io/roadmap) problems implemented in both Python and Rust.
+My solutions to the [NeetCode 150](https://neetcode.io/roadmap) problems implemented in both Python and Rust.
 
 ## NeetCode 150 Roadmap
 - [Arrays & Hashing](./neetcode150/arrays_and_hashing/)
