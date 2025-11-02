@@ -1,5 +1,5 @@
 # Deets' NeetCode 150 Solutions
-My solutions to the [NeetCode 150](https://neetcode.io/roadmap) problems implemented in both Python and Rust.
+My solutions to the [NeetCode 150](https://neetcode.io/roadmap) problems implemented in Python.
 
 ## NeetCode 150 Roadmap
 - [Arrays & Hashing](./neetcode150/arrays_and_hashing/)
@@ -20,7 +20,3 @@ My solutions to the [NeetCode 150](https://neetcode.io/roadmap) problems impleme
     - [1D Dynamic Programming](./neetcode150/1d_dynamic_programming/)
       - [2D Dynamic Programming](./neetcode150/2d_dynamic_programming/)
       - [Bit Manipulation](./neetcode150/bit_manipulation/)
-
-## Running Solutions
-- Python solutions are in each problem's directory (`solution.py`)
-- Rust solutions are in each problem's directory (`src/lib.rs`). Run `cargo test -p [problem_name]` to run the solution.

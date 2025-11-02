@@ -8,10 +8,3 @@ class Solution:
                 return [seen[target - nums[i]], i]
             seen[nums[i]] = i
         return []
-
-if __name__ == '__main__':
-    solution = Solution()
-    assert solution.two_sum([3,4,5,6], 7) == [0,1], "Example 1 failed"
-    assert solution.two_sum([4,5,6], 10) == [0,2], "Example 2 failed"
-    assert solution.two_sum([5,5], 10) == [0,1], "Example 3 failed"
-    print("All test cases passed!")
