@@ -10,7 +10,7 @@ My solutions to the [NeetCode 150](https://neetcode.io/roadmap) problems impleme
   - [Stack](./neetcode150/stack/)
 - [Trees](./neetcode150/trees/)
   - [Tries](./neetcode150/tries/)
-  - [Heaps & Priority Queues](./neetcode150/heaps_and_priority_queues/)
+  - [Heaps & Priority Queues](./neetcode150/heaps_and_priority_queue/)
     - [Intervals](./neetcode150/intervals/)
     - [Greedy](./neetcode150/greedy/)
   - [Backtracking](./neetcode150/backtracking/)
