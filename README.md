@@ -2,7 +2,7 @@
 My solutions to the [NeetCode 150](https://neetcode.io/roadmap) problems implemented in Python.
 
 ## NeetCode 150 Roadmap
-- [Arrays & Hashing](./neetcode150/arrays_and_hashing/README.md)
+- [Arrays & Hashing](./neetcode150/arrays_and_hashing/)
   - [Two Pointers](./neetcode150/two_pointers/)
     - [Binary Search](./neetcode150/binary_search/)
     - [Sliding Window](./neetcode150/sliding_window/)
